@@ -4,36 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Stuff You Should Know Podcast</title>
 </head>
 <body>
-  <!-- Include the tag for introductory content -->
-
-    <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-  
-    <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
-
-
-
-  <!-- Add an element that represents the main content of the page --> 
-
-    <!-- Main heading for the page -->
-    Featured Episodes
-
-    There are so many episodes of Stuff You Should Know to listen to but here are three of our favourites; in this order.
-
-    <!-- Display the following as a list and link to appropriate existing html page -->
-    1. Interesting Origins of Everday Phrases
-    2. The History of Fake Towns
-    3. Doppelgängers: Hey you, you're me!
-
-
-
-  <!-- Include the tag for footer content -->
-  &copy; SYSK 2023 
-
-
+  <header role="banner">
+    <a href="../index.html" aria-label="to home page">
+    <img src="../images/sysk-logo.webp" alt="Stuff you should know podcast logo">
+    </a>
+  <nav role="navigation">    
+    <ul>
+      <li><a href="../about.html" aria-label="to the about page">About</a></li>
+      <li><a href="episodes.html" aria-label="to the episodes page">Episodes</a></li>
+    </ul>
+  </nav>
+  </header>
+  <main role="main">
+    <h1>Featured Episodes</h1>
+    <p>There are so many episodes of Stuff You Should Know to listen to but here are three of our favourites; in this order.</p>
+    <ol>
+      <li><a href="everyday-phrases.html" aria-label="to Interesting Origins of Everyday Phrases episode">Interesting Origins of Everday Phrases</a></li>
+      <li><a href="fake-towns.html" aria-label="to The History of Fake Towns episode">The History of Fake Towns</a></li>
+      <li><a href="doppelgangers.html" aria-label="to Doppelgängers: Hey you, you're me! episode">Doppelgängers: Hey you, you're me!</a></li>
+    </ol>
+  </main>
+  <footer role="contentinfo">  
+    <small>&copy; SYSK 2023</small>
+  </footer>
 </body>
 </html>
